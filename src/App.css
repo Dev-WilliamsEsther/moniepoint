@@ -1,0 +1,323 @@
+.headerwrap{
+  width: 100%;
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.headerinnerwrap1{
+  width: 15%;
+  height: 50%;
+
+  img{
+      width: 70%;
+  }
+}
+.headerinnerwrap2{
+  width: 32%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  p{
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 8px;
+    color: rgb(0, 0, 0);
+  }
+}
+
+.headerinnerwrap3{
+  width: 20%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.headerinnerwrap3 h2{
+  font-size: 16px;
+  font-weight: 700;
+  color: #0D2E6D;
+}
+
+/* MY ALUMNI STYLING STARTS */
+.alumni{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.alumniborder{
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.5px solid black;
+
+}
+.alumnitext{
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1{
+    width: 76%;
+    font-size: 75px;
+    font-weight: 600;
+    left: 20px;
+    line-height: 72px;
+    color: rgb(8, 8, 12);
+  }
+}
+.alumnitextcenter{
+  width: 72%;
+  height: 28%;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+
+  p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(33, 37, 41);
+  }
+}
+/* REQUIREMENT STYLING STARTS */
+
+.requirement{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.requirehold{
+  display: flex;
+  justify-content: center;
+
+}
+.requiretext{
+  width: 70%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h1{
+    width: 76%;
+    font-size: 75px;
+    font-weight: 600;
+    left: 20px;
+    line-height: 72px;
+    color: rgb(8, 8, 12);
+  }
+}
+.requiretextcenter{
+  width: 80%;
+  height: 28%;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+
+  p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(33, 37, 41);
+  }
+}
+/* MY FAQs STYLING STARTS */
+.faqsss{
+  width: 100%;
+  height: max-content;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  flex-direction: column;
+  gap: 50px;
+}
+.faqsss h1{
+  font-family: GeneralSans;
+  font-size: 84px;
+  font-weight: 700;
+  line-height: 84px;
+  color: rgb(8, 8, 12);
+}
+.faqtext{
+  width: 80%;
+  height: 150px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.faquestions{
+  width: 80%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+.faq-deco-right {
+  position: absolute;
+  top: 10%;
+  right: -50px; 
+  width: 90px; 
+  height: auto;
+  z-index: 0;
+}
+.faq-deco-left {
+  position: absolute;
+  top: 43%;
+  left: -50px; 
+  width: 80px; 
+  height: auto;
+  z-index: 0;
+}
+
+.faqlittlesecret{
+  width: 80%;
+  height: 450px;
+  background-color: #CDDDFC;
+  border-radius: 0px 90px 0px 60px;
+  border: 1.5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  gap: 10px;
+
+  h1{
+    width: 68%;
+    font-family: Space Grotesk Bold ;
+    font-size: 72px;
+    font-weight: 600;
+    left: 20px;
+    line-height: 72px;
+    color: rgb(8, 8, 12);
+  }
+}
+.littlesecretcenter{
+  width: 68%;
+  height: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.littlesecretsmalltext{
+  width: 65%;
+  height: 170px;
+}
+.littlesecretsmalltext p{
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-size: 16.5px;
+font-weight: 400;
+line-height: 28px;
+color: rgb(33, 37, 41);
+}
+
+.faqapply{
+  width: 25%;
+  height: 15%;
+  background: #FEEFC3;
+  border: 1px solid black;
+  padding: 15px 25px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 27px;
+  box-shadow: 0px 8px 0px 3px black;
+  transition: 0.3s ease-in-out;
+  margin-top: 30px;
+}
+.faqapply:hover{
+  background-color: #FED75B;
+}
+
+
+
+
+
+
+
+@media (max-width: 430px){
+  .headerinnerwrap1{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+  
+    img{
+        width: 75%;
+    }
+  }
+  .headerinnerwrap2{
+    display: none;
+  }
+  .headerinnerwrap3{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerinnerwrap3 h2{
+    font-size: 13px;
+    color: #0D2E6D;
+    font-weight: 800;
+  }
+  .faquestions{
+    width: 360px;
+    height: max-content;
+    
+  }
+  .faq-deco-right {
+    width: 60px; 
+  }
+  .faq-deco-left {
+    width: 60px; 
+  }
+  .faqlittlesecret{
+    width: 340px;
+    height: 520px;
+    margin-top: 40px;
+    border-radius: 0px 60px 0px 60px;
+    h1{
+      width: 100%;
+      font-size: 50px;
+    }
+  }
+  .littlesecretcenter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .littlesecretsmalltext{
+    width: 100%;
+  }
+  .faqapply{
+    width: 80%;
+    height: 10%;
+    box-shadow: 0px 3px 0px 3px black;
+    margin-top: 100px;
+  }
+}
