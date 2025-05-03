@@ -10,6 +10,7 @@ import About from "./pages/About";
 import FramerMotion from "./pages/FramerMotion";
 import About2 from "./pages/About2";
 import Alumni2 from "./pages/Alumni2";
+import { FaAnglesUp } from "react-icons/fa6";
 
 const sections = ["about", "requirement", "alumni", "faqs"];
 
@@ -133,8 +134,10 @@ const MainPage = () => {
           </div>
         </div>
 
-        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={{ position: "fixed", bottom: "20px", right: "20px" }}>
-          Scroll to Top
+        <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} style={{ position: "fixed", bottom: "20px", right: "20px" }}
+        className="animate-bounce"
+          >
+        <FaAnglesUp size={30}/>
         </button>
       </div>
     </FramerMotion>
