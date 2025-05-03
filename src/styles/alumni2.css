@@ -1,0 +1,387 @@
+.alumni {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  
+    & h1 {
+      width: 100%;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 84px;
+      font-weight: 700;
+      line-height: 84px;
+      padding-top: 60px;
+      position: relative;
+  
+      & p {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 400;
+        position: absolute;
+        bottom: 41%;
+        right: 28%;
+      }
+    }
+  
+    .twoOne {
+      width: 100%;
+      height: 600px;
+      border-top: 2px solid black;
+      display: flex;
+      flex-direction: column;
+  
+      & .prevNext {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px;
+  
+        & h2 {
+          font-size: 84px;
+          font-weight: 700;
+        }
+  
+        & .butt {
+          width: 260px;
+          height: 60px;
+          background-color: black;
+          margin-top: 30px;
+          padding: 15px 90px;
+          font-size: 18px;
+          font-weight: 700;
+          border-radius: 50px;
+          border: 1px solid black;
+          position: relative;
+  
+          & .buttInn {
+            width: 260px;
+            height: 60px;
+            background-color: rgb(255, 235, 175);
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 50px;
+            border: 1px solid black;
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            transition: all 250ms ease-in-out;
+            cursor: pointer;
+          }
+        }
+  
+        .buttInn:hover {
+          background-color: rgb(255, 212, 83);
+        }
+      }
+  
+      & .cards {
+        width: 100%;
+        height: 65%;
+        display: flex;
+        align-items: end;
+        gap: 20px;
+  
+        & .cardse {
+          width: 300px;
+          height: 320px;
+          background: white;
+          border-radius: 15px;
+          border: 1px solid black;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+  
+          & .imgBox {
+            width: 90%;
+            height: 65%;
+            background: rgb(196, 233, 253);
+            border-top-left-radius: 40%;
+            object-fit: cover;
+            transition: all 0.5s ease-in;
+  
+            & img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          & .textBox {
+            width: 90%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+  
+            & h2 {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 25px;
+            }
+  
+            & span {
+              font-size: 34px;
+              color: rgb(196, 233, 253);
+              transition: all 0.5s ease;
+            }
+          }
+        }
+  
+        & .cardse:hover {
+          cursor: pointer;
+          .imgBox {
+            box-shadow: rgba(59, 58, 58, 0.35) 0px 5px 15px;
+          }
+          .textBox {
+            span {
+              transform: rotate(45deg);
+            }
+          }
+        }
+        & .cardsee:hover {
+          cursor: pointer;
+          .imgBox {
+            box-shadow: rgba(59, 58, 58, 0.35) 0px 5px 15px;
+          }
+          .textBox {
+            span {
+              transform: rotate(45deg);
+            }
+          }
+        }
+        & .cardses:hover {
+          cursor: pointer;
+          .imgBox {
+            box-shadow: rgba(59, 58, 58, 0.35) 0px 5px 15px;
+          }
+          .textBox {
+            span {
+              transform: rotate(45deg);
+            }
+          }
+        }
+  
+        & .cardsee {
+          width: 300px;
+          height: 340px;
+          background: white;
+          border-radius: 15px;
+          border: 1px solid black;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+  
+          & .imgBox {
+            width: 90%;
+            height: 65%;
+            background: rgb(214, 242, 147);
+            border-top-right-radius: 40%;
+            border-bottom-left-radius: 40%;
+            object-fit: cover;
+            transition: all 0.5s ease-in;
+  
+            & img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          & .textBox {
+            width: 90%;
+            height: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+  
+            & h2 {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 25px;
+            }
+  
+            & span {
+              font-size: 34px;
+              color: rgb(214, 242, 147);
+              transition: all 0.5s ease;
+            }
+          }
+        }
+        & .cardses {
+          width: 300px;
+          height: 300px;
+          background: white;
+          border-radius: 15px;
+          border: 1px solid black;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+  
+          & .imgBox {
+            width: 90%;
+            height: 60%;
+            background: rgb(228, 214, 253);
+            border-top-left-radius: 100px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+            object-fit: cover;
+            transition: all 0.5s ease-in;
+  
+            & img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          & .textBox {
+            width: 90%;
+            height: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+  
+            & h2 {
+              font-size: 24px;
+              font-weight: 700;
+              line-height: 25px;
+            }
+  
+            & span {
+              font-size: 34px;
+              color: rgb(228, 214, 253);
+              transition: all 0.5s ease;
+            }
+          }
+        }
+      }
+    }
+  
+    .twoTwo {
+      width: 100%;
+      height: 270px;
+      border-top: 4px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+  
+      & h2 {
+        font-size: 200px;
+        font-weight: 700;
+      }
+    }
+  
+    .twoTwo:hover {
+      background-color: rgba(94, 145, 173, 0.329);
+    }
+    .twoFour:hover {
+      background-color: rgba(94, 145, 173, 0.329);
+    }
+  
+    .twoFour {
+      width: 100%;
+      height: 270px;
+      border-top: 4px solid black;
+      border-bottom: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.3s ease-in;
+  
+      & h2 {
+        font-size: 200px;
+        font-weight: 700;
+      }
+    }
+  }
+  
+  .cards::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .cardsWrap {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    gap: 20px;
+  }
+  
+  .detailsCard{
+    width: 600px;
+    height: 320px;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 30px;
+    cursor: pointer;
+  
+    .firstBox{
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+  
+      & .smallImg {
+        width: 100%;
+        height: 40%;
+        border-top-left-radius: 90px;
+        background: rgb(196,233,253);
+        object-fit: contain;
+        object-position: center;
+  
+        & img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+  
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+  
+      }
+  
+      p{
+        font-size: 22px;
+        color: rgb(144,168,186);
+        font-weight: 600;
+        line-height: 24px;
+      }
+    }
+  
+    .secondBox{
+      width: 66%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  
+      & p{
+        font-size: 16px;
+        font-weight: 400;
+      }
+  
+      & span {
+        font-size: 34px;
+        color: rgb(196,233,253);
+        margin-left: 88%;
+        margin-top: 20px;
+        transform: rotate(45deg);
+      }
+    }
+  }

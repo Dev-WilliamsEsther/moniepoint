@@ -32,7 +32,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Work collaboratively in a team environment.
                 </p>
-                <button className='w-50 h-14 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+                <button className='w-50 h-14 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
               </div>
             </div>
 
@@ -60,7 +60,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Demonstrates skill in time management and completing software projects in a cooperative team environment.
               </p>
-                <button className='w-50 h-14 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+                <button className='w-50 h-14 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -96,7 +96,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Develop company A/B testing framework and test model quality.
               </p>
-              <button className='w-50 h-12 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-12 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -120,7 +120,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Work with internal teams, including developers, engineers, architects, quality assurance, and operations
               </p>
-              <button className='w-50 h-12 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-12 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -156,7 +156,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Engage in code reviews to enhance code quality.
               </p>
-              <button className='w-50 h-12 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-12 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -192,7 +192,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Demonstrates skill in time management and completing software projects in a cooperative team environment.
               </p>
-              <button className='w-50 h-14 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-14 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -228,7 +228,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Develop and maintain accurate technical, software operations and support related documentation.
               </p>
-              <button className='w-50 h-14 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-14 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -264,7 +264,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Contribute to the implementation of monitoring and logging solutions for cloud-based systems.
               </p>
-              <button className='w-50 h-14 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-14 bg-[#FFEBAF] hover:bg-[#FED75B] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
 
               </div>
             </div>
@@ -292,7 +292,7 @@ const TheRequirement = () => {
                   <img src="https://womenintech.moniepoint.com/static/media/star-bullet.39fa5dc22c86d234c74fce62fe797a19.svg" />
                   Applies engineering principles to solve complex problems through sound and creative engineering.
               </p>
-              <button className='w-50 h-12 bg-[#FFEBAF] font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
+              <button className='w-50 h-12 bg-[#FFEBAF] hover:bg-[#FED75B]  font-bold rounded-4xl shadow-[0px_4px_0px_4px_black]' style={{marginLeft:'26%'}}>SUBMIT APPLICATION</button>
               </div>
             </div>
         </div>

@@ -9,6 +9,7 @@ import TheRequirement from "./pages/TheRequirement";
 import About from "./pages/About";
 import FramerMotion from "./pages/FramerMotion";
 import About2 from "./pages/About2";
+import Alumni2 from "./pages/Alumni2";
 
 const sections = ["about", "requirement", "alumni", "faqs"];
 
@@ -105,16 +106,8 @@ const MainPage = () => {
         </div>
 
         <div id="alumni" className="alumni"  >
-          <div className="alumniborder">
-            <div className="alumnitext">
-              <h1>The WIT Internship</h1>
-              <div className="alumnitextcenter">
-                <h1>Alumni</h1>
-                <p>Meet the previous Women In Tech interns, who are now working in full-time roles at Moniepoint.</p>
-              </div>
-            </div>
-          </div>
-          <Alumni />
+          {/* <Alumni /> */}
+          <Alumni2/>
         </div>
 
         <div id="faqs" className="faqsss">

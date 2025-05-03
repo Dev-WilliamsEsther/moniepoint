@@ -1,7 +1,7 @@
 
 
 import React, { useState } from "react";
-import { ImPlus } from "react-icons/im";
+import { ImCross, ImPlus } from "react-icons/im";
 
 
 const profilesByYear = {
@@ -12,7 +12,8 @@ const profilesByYear = {
       surname: "Ajadi",
       image: "/Barakat.png",
       color: "#C4E9FD",
-      height: "h-76",
+      bG:"#C4E9FD",
+      height: "h-80",
       imageHeight: "h-36",
       imageStyle: "rounded-tl-[100px]",
       width:"w-130",
@@ -28,6 +29,7 @@ const profilesByYear = {
       surname: "Oladejo",
       image: "/Tefe.png",
       color: "#D6F293",
+      bG:"#D6F293",
       height: "h-82",
       imageHeight: "h-44",
       imageStyle: "rounded-bl-[80px] rounded-tr-[80px]",
@@ -44,6 +46,7 @@ const profilesByYear = {
       surname: "Umar",
       image: "/Binta.png",
       color: "#E4D6FD",
+      bG:"#E4D6FD",
       height: "h-76",
       imageHeight: "h-36",
       imageStyle: "rounded-tl-[60px] rounded-bl-[80px] rounded-br-[60px]",
@@ -80,10 +83,10 @@ const profilesByYear = {
       color: "#FFEBAF",
       height: "h-76",
       imageHeight: "h-44",
-      imageStyle: "rounded-tl-[80px] rounded-br-[80px]",
+      imageStyle: "rounded-tl-[100px]",
       width:"w-130",
       minwidth:"w-34",
-      minheight:"h-24",
+      minheight:"h-26",
       position:"Technical Product Manager",
       content1:"Feranmi leverages her technology and product management expertise to develop and launch successful products with a meaningful impact on people's daily lives.",
       content2:"She has a positive energy that inspires those around her and enjoys reading tweets, newsletters, and books (except autobiographies) outside of work. She’s also known for her quirky humour and love of classic films."
@@ -212,7 +215,7 @@ const profilesByYear = {
       color: "#C5DFF8",
       height: "h-72",
       imageHeight: "h-36",
-      imageStyle: "rounded-br-[100px]",
+      imageStyle: "rounded-tl-[100px]",
       width:"w-130",
       minwidth:"w-34",
       minheight:"h-24",
@@ -342,6 +345,9 @@ const Alumni = () => {
   const handleStory = (index) => {
     setContent(index)
   }
+  const handleClose = () => {
+    setContent(null)
+  }
   // this arranges the year accordingly  ['2021', '2022', '2023', '2024']
   const years = Object.keys(profilesByYear).sort();
   // console.log(years)
@@ -427,17 +433,19 @@ const Alumni = () => {
                   </button>
                 </div>
               </div>
-              <div className="w-full min-h-[60vh] bg-purple-500 border-x-2 border-black flex justify-center items-center overflow-hidden ">
+              <div className="w-full min-h-[60vh] bg-pink-400 border-x-2 border-black flex justify-center items-center overflow-y-auto ">
               <div
                 onClick={(e) => e.stopPropagation()}
-                className="w-[1400px] h-[360px] bg-white flex justify-center items-center overflow-auto mx-5"
+                className="w-full max-h-[70vh] flex  overflow-x-auto overflow-y-hidden bg-violet-300 mx-5"
               >
-                <div className="flex w-full h-full justify-center gap-7 items-end py-16">
+                <div className="w-max h-100 bg-rose-800 flex items-center gap-7 "
+                style={{paddingLeft:"20px"}}
+                >
                   {profilesByYear[currentYear].map((profile,index) => (
                     <>
                     {
-                      content === index ? <div className={`${profile.width} ${profile.height} flex justify-around items-center bg-white border border-black rounded-2xl`}>
-                        <div className="w-36 h-70  flex flex-col justify-around">
+                      content === index ? <div className={`${profile.width} ${profile.height} flex justify-around items-center bg-sky-800 border border-black rounded-2xl`}>
+                        <div className="w-36 h-70 bg-fuchsia-600 flex flex-col justify-around">
                           <div className={`${profile.minwidth} ${profile.minheight} ${profile.imageStyle}`} 
                           style={{backgroundColor:profile.color}}
                           >
@@ -450,9 +458,12 @@ const Alumni = () => {
                           style={{color:profile.color}}
                           >{profile.position}</h2>
                         </div>
-                        <div className="w-80 h-70  flex flex-col justify-around">
+                        <div className="w-80 h-72 bg-emerald-400 flex flex-col justify-around">
                           <p >{profile.content1}</p>
                           <p >{profile.content2}</p>
+                          <ImCross size={22} style={{marginLeft:"84%" , color:profile.color }}
+                          onClick={handleClose}
+                          />
                         </div>
                       </div> : <div
                       key={profile.id}
@@ -468,7 +479,7 @@ const Alumni = () => {
                           alt={`${profile.name} ${profile.surname}`}
                         />
                       </div>
-                      <div className="w-60 h-14 bg-amber-300 flex justify-between items-center">
+                      <div className="w-60 h-14 bg-amber-900 flex justify-between items-center">
                         <h2 className="text-2xl font-medium leading-6">
                           {profile.name} <br /> {profile.surname}
                         </h2>
